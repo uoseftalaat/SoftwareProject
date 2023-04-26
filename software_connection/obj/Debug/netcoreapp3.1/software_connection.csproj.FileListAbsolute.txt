@@ -1,0 +1,6 @@
+C:\Users\OogaPro9344\Desktop\SoftwareProject\software_connection\obj\Debug\netcoreapp3.1\software_connection.csprojAssemblyReference.cache
+C:\Users\OogaPro9344\Desktop\SoftwareProject\software_connection\obj\Debug\netcoreapp3.1\software_connection.Form1.resources
+C:\Users\OogaPro9344\Desktop\SoftwareProject\software_connection\obj\Debug\netcoreapp3.1\software_connection.csproj.GenerateResource.cache
+C:\Users\OogaPro9344\Desktop\SoftwareProject\software_connection\obj\Debug\netcoreapp3.1\software_connection.AssemblyInfoInputs.cache
+C:\Users\OogaPro9344\Desktop\SoftwareProject\software_connection\obj\Debug\netcoreapp3.1\software_connection.AssemblyInfo.cs
+C:\Users\OogaPro9344\Desktop\SoftwareProject\software_connection\obj\Debug\netcoreapp3.1\software_connection.csproj.CoreCompileInputs.cache
