@@ -1,0 +1,12 @@
+C:\Users\PC\source\repos\SoftwareProject\bin\Debug\SoftwareProject.exe.config
+C:\Users\PC\source\repos\SoftwareProject\bin\Debug\SoftwareProject.exe
+C:\Users\PC\source\repos\SoftwareProject\bin\Debug\SoftwareProject.pdb
+C:\Users\PC\source\repos\SoftwareProject\bin\Debug\Oracle.DataAccess.dll
+C:\Users\PC\source\repos\SoftwareProject\obj\Debug\SoftwareProject.csproj.AssemblyReference.cache
+C:\Users\PC\source\repos\SoftwareProject\obj\Debug\SoftwareProject.Properties.Resources.resources
+C:\Users\PC\source\repos\SoftwareProject\obj\Debug\SoftwareProject.csproj.GenerateResource.cache
+C:\Users\PC\source\repos\SoftwareProject\obj\Debug\SoftwareProject.csproj.CoreCompileInputs.cache
+C:\Users\PC\source\repos\SoftwareProject\obj\Debug\SoftwareProject.csproj.CopyComplete
+C:\Users\PC\source\repos\SoftwareProject\obj\Debug\SoftwareProject.exe
+C:\Users\PC\source\repos\SoftwareProject\obj\Debug\SoftwareProject.pdb
+C:\Users\PC\source\repos\SoftwareProject\obj\Debug\SoftwareProject.Form2.resources
