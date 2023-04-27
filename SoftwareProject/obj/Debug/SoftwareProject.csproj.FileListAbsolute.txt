@@ -10,3 +10,13 @@ C:\Users\PC\source\repos\SoftwareProject\obj\Debug\SoftwareProject.csproj.CopyCo
 C:\Users\PC\source\repos\SoftwareProject\obj\Debug\SoftwareProject.exe
 C:\Users\PC\source\repos\SoftwareProject\obj\Debug\SoftwareProject.pdb
 C:\Users\PC\source\repos\SoftwareProject\obj\Debug\SoftwareProject.Form2.resources
+C:\Users\OogaPro9344\Desktop\SoftwareProject\SoftwareProject\bin\Debug\SoftwareProject.exe.config
+C:\Users\OogaPro9344\Desktop\SoftwareProject\SoftwareProject\bin\Debug\SoftwareProject.exe
+C:\Users\OogaPro9344\Desktop\SoftwareProject\SoftwareProject\bin\Debug\SoftwareProject.pdb
+C:\Users\OogaPro9344\Desktop\SoftwareProject\SoftwareProject\obj\Debug\SoftwareProject.csprojAssemblyReference.cache
+C:\Users\OogaPro9344\Desktop\SoftwareProject\SoftwareProject\obj\Debug\SoftwareProject.Form2.resources
+C:\Users\OogaPro9344\Desktop\SoftwareProject\SoftwareProject\obj\Debug\SoftwareProject.Properties.Resources.resources
+C:\Users\OogaPro9344\Desktop\SoftwareProject\SoftwareProject\obj\Debug\SoftwareProject.csproj.GenerateResource.cache
+C:\Users\OogaPro9344\Desktop\SoftwareProject\SoftwareProject\obj\Debug\SoftwareProject.csproj.CoreCompileInputs.cache
+C:\Users\OogaPro9344\Desktop\SoftwareProject\SoftwareProject\obj\Debug\SoftwareProject.exe
+C:\Users\OogaPro9344\Desktop\SoftwareProject\SoftwareProject\obj\Debug\SoftwareProject.pdb

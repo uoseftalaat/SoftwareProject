@@ -15,7 +15,7 @@ namespace SoftwareProject
 {
     public partial class Form2 : Form
     {
-        string softconn = "Data Source=orcl;User Id=scott;Password=tiger;";
+        string softconn = "Data Source=orcl;User Id=hr;Password=HR;";
         OracleConnection conn;
         OracleDataAdapter adapter;
         OracleCommandBuilder builder;
