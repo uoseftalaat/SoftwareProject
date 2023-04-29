@@ -19,7 +19,7 @@ namespace SoftwareProject
    
     public partial class connectedmode : Form
     {
-        string constr = "Data Source=orcl;User Id=hr;Password=HR;";
+        string constr = "Data Source=orcl;User Id=scott;Password=tiger;";
         OracleConnection con;
 
         public connectedmode()
@@ -32,10 +32,19 @@ namespace SoftwareProject
         }
         private void connectedmode_Load(object sender, EventArgs e)
         {
-            con = new OracleConnection(); ‏
+            con = new OracleConnection(constr);
             con.Open();
-            
-           
+            OracleCommand sel = new OracleCommand();
+            sel.Connection = con;
+            sel.CommandText = "GetEventName";
+            sel.CommandType = CommandType.StoredProcedure;
+            sel.Parameters.Add("events", OracleDbType.RefCursor, ParameterDirection.Output);
+            OracleDataReader dr2 = sel.ExecuteReader();
+            while (dr2.Read())
+            {
+                comboBox1.Items.Add(dr2[0]);
+            }
+            dr2.Close();
 
         }
         private void textBox2_TextChanged(object sender, EventArgs e)
@@ -48,20 +57,11 @@ namespace SoftwareProject
         }
         private void comboBox1_SelectedIndexChanged(object sender, EventArgs e)
         {
-             ‏OracleCommand cmd = new OracleCommand();
+            OracleCommand cmd = new OracleCommand();
+            cmd.Connection = con;
             cmd.CommandText = "select date_,price from event where name=:event_name";
             cmd.CommandType = CommandType.Text;
             cmd.Parameters.Add("event_name", comboBox1.SelectedItem.ToString());
-            OracleCommand sel = new OracleCommand();
-            sel.CommandText = "GetEventName";
-            sel.CommandType = CommandType.StoredProcedure;
-            sel.Parameters.Add("events", OracleDbType.RefCursor, ParameterDirection.Output);
-            OracleDataReader dr2 = sel.ExecuteReader();
-            while (dr2.Read())
-            {
-                comboBox1.Items.Add(dr2[0]);
-            }
-            dr2.Close();
 
             OracleDataReader dr = cmd.ExecuteReader();
             while (dr.Read())
@@ -79,14 +79,15 @@ namespace SoftwareProject
             OracleCommand cmd = new OracleCommand();
             cmd.Connection = con;
             pro.Connection = con;
-            pro.CommandText = "GetTicketId";
+            pro.CommandText = "getticket";
             pro.CommandType = CommandType.StoredProcedure;
             pro.Parameters.Add("ticket_id",OracleDbType.Int32,ParameterDirection.Output);
             pro.ExecuteNonQuery();
             try
             {
                 max_id = Convert.ToInt32(pro.Parameters["ticket_id"].Value.ToString());
-                new_id = max_id++;
+                new_id = max_id + 1;
+               
             }
             catch
             {
@@ -101,6 +102,7 @@ namespace SoftwareProject
             {
                 ticketbox.Text = new_id.ToString();
                 MessageBox.Show("BOOKED...");
+                ticketbox.Text = "";
             }
         }
     }

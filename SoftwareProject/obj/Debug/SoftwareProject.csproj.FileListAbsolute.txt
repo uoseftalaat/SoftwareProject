@@ -20,3 +20,23 @@ C:\Users\OogaPro9344\Desktop\SoftwareProject\SoftwareProject\obj\Debug\SoftwareP
 C:\Users\OogaPro9344\Desktop\SoftwareProject\SoftwareProject\obj\Debug\SoftwareProject.csproj.CoreCompileInputs.cache
 C:\Users\OogaPro9344\Desktop\SoftwareProject\SoftwareProject\obj\Debug\SoftwareProject.exe
 C:\Users\OogaPro9344\Desktop\SoftwareProject\SoftwareProject\obj\Debug\SoftwareProject.pdb
+C:\Users\win10\SoftwareProject\SoftwareProject\obj\Debug\SoftwareProject.csproj.AssemblyReference.cache
+C:\Users\win10\SoftwareProject\SoftwareProject\obj\Debug\SoftwareProject.connectedmode.resources
+C:\Users\win10\SoftwareProject\SoftwareProject\obj\Debug\SoftwareProject.Form2.resources
+C:\Users\win10\SoftwareProject\SoftwareProject\obj\Debug\SoftwareProject.Properties.Resources.resources
+C:\Users\win10\SoftwareProject\SoftwareProject\obj\Debug\SoftwareProject.csproj.GenerateResource.cache
+C:\Users\win10\SoftwareProject\SoftwareProject\obj\Debug\SoftwareProject.csproj.CoreCompileInputs.cache
+C:\Users\win10\SoftwareProject\SoftwareProject\obj\Debug\SoftwareProject.exe
+C:\Users\win10\SoftwareProject\SoftwareProject\obj\Debug\SoftwareProject.pdb
+C:\Users\PC\OneDrive - Faculty of Computer and Information Sciences (Ain Shams University)\Desktop\SoftwareProject\SoftwareProject\obj\Debug\SoftwareProject.csproj.AssemblyReference.cache
+C:\Users\PC\OneDrive - Faculty of Computer and Information Sciences (Ain Shams University)\Desktop\SoftwareProject\SoftwareProject\obj\Debug\SoftwareProject.connectedmode.resources
+C:\Users\PC\OneDrive - Faculty of Computer and Information Sciences (Ain Shams University)\Desktop\SoftwareProject\SoftwareProject\obj\Debug\SoftwareProject.Form2.resources
+C:\Users\PC\OneDrive - Faculty of Computer and Information Sciences (Ain Shams University)\Desktop\SoftwareProject\SoftwareProject\obj\Debug\SoftwareProject.Properties.Resources.resources
+C:\Users\PC\OneDrive - Faculty of Computer and Information Sciences (Ain Shams University)\Desktop\SoftwareProject\SoftwareProject\obj\Debug\SoftwareProject.csproj.GenerateResource.cache
+C:\Users\PC\OneDrive - Faculty of Computer and Information Sciences (Ain Shams University)\Desktop\SoftwareProject\SoftwareProject\obj\Debug\SoftwareProject.csproj.CoreCompileInputs.cache
+C:\Users\PC\OneDrive - Faculty of Computer and Information Sciences (Ain Shams University)\Desktop\SoftwareProject\SoftwareProject\obj\Debug\SoftwareProject.exe
+C:\Users\PC\OneDrive - Faculty of Computer and Information Sciences (Ain Shams University)\Desktop\SoftwareProject\SoftwareProject\obj\Debug\SoftwareProject.pdb
+C:\Users\PC\OneDrive - Faculty of Computer and Information Sciences (Ain Shams University)\Desktop\SoftwareProject\SoftwareProject\bin\Debug\SoftwareProject.exe.config
+C:\Users\PC\OneDrive - Faculty of Computer and Information Sciences (Ain Shams University)\Desktop\SoftwareProject\SoftwareProject\bin\Debug\SoftwareProject.exe
+C:\Users\PC\OneDrive - Faculty of Computer and Information Sciences (Ain Shams University)\Desktop\SoftwareProject\SoftwareProject\bin\Debug\SoftwareProject.pdb
+C:\Users\PC\OneDrive - Faculty of Computer and Information Sciences (Ain Shams University)\Desktop\SoftwareProject\SoftwareProject\obj\Debug\SoftwareProject.general.resources

@@ -15,7 +15,7 @@ namespace SoftwareProject
 {
     public partial class Form2 : Form
     {
-        string softconn = "Data Source=orcl;User Id=hr;Password=HR;";
+        string softconn = "Data Source=orcl;User Id=scott;Password=tiger;";
         OracleConnection conn;
         OracleDataAdapter adapter;
         OracleCommandBuilder builder;
@@ -27,12 +27,7 @@ namespace SoftwareProject
 
         private void Form2_Load(object sender, EventArgs e)
         {
-            string cmdstr = "select * from organizer ";
-
-            adapter = new OracleDataAdapter(cmdstr, softconn);
-            ds = new DataSet();
-            adapter.Fill(ds);
-            dataGridView1.DataSource = ds.Tables[0];
+            
         }
 
         private void comboBox1_SelectedIndexChanged(object sender, EventArgs e)
@@ -49,6 +44,41 @@ namespace SoftwareProject
         private void button2_Click(object sender, EventArgs e)
         {
           
+        }
+
+        private void groupBox1_Enter(object sender, EventArgs e)
+        {
+
+        }
+
+        private void button2_Click_1(object sender, EventArgs e)
+        {
+            string cmdstr = "select * from event ";
+
+            adapter = new OracleDataAdapter(cmdstr, softconn);
+            ds = new DataSet();
+            adapter.Fill(ds);
+            dataGridView1.DataSource = ds.Tables[0];
+        }
+
+        private void user_info_Click(object sender, EventArgs e)
+        {
+            string cmdstr = "select * from organizer ";
+
+            adapter = new OracleDataAdapter(cmdstr, softconn);
+            ds = new DataSet();
+            adapter.Fill(ds);
+            dataGridView1.DataSource = ds.Tables[0];
+        }
+
+        private void ev_Click(object sender, EventArgs e)
+        {
+            string cmdstr = "select * from event ";
+
+            adapter = new OracleDataAdapter(cmdstr, softconn);
+            ds = new DataSet();
+            adapter.Fill(ds);
+            dataGridView1.DataSource = ds.Tables[0];
         }
     }
 }
